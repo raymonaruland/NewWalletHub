@@ -51,8 +51,7 @@ public class WalletHub {
 		target.click();
 		driver.findElement(By.xpath("//*[contains(text(),'Select...')]")).click();
 		driver.findElement(By.xpath("(//*[contains(text(),'Health Insurance')])[14]")).click();
-		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FactoryUtils.copyFile(src,new File("D:\\eclipse"));
+
 
 		}
 
